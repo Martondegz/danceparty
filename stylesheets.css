@@ -1,174 +1,164 @@
+body {
+    background-image: url(images/party-146582_1280.png);
+    background-repeat: no-repeat;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: black;
+}
+
 .blinkorange {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  background-color: orange;
-  position: absolute;
-  top: 0;
-  left: 0;
-  animation-name: dissapear;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  opacity: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    animation-name: dissapear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    opacity: 1;
 }
-.blinkbrown {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  background-color: green;
-  position: absolute;
-  top: 10%;
-  left: 30%;
-  animation-name: dissapear;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-delay: 1s;
-  opacity: 0;
+
+.brownblink {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    animation-name: dissapear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    opacity: 0;
 }
+
 .blinkblack {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  background-color: yellow;
-  position: absolute;
-  top: 30%;
-  left: 40%;
-  animation-name: dissapear;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-delay: 0s;
-  opacity: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    animation-name: dissapear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    opacity: 0;
 }
+
 .blinkyellow {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  background-color: blue;
-  position: absolute;
-  top: 60%;
-  left: 60%;
-  animation-name: dissapear;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-delay: 1s;
-  opacity: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    animation-name: dissapear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    opacity: 0;
 }
+
 .blinkgreen {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  background-color: orange;
-  position: absolute;
-  top: 70%;
-  left: 20%;
-  animation-name: dissapear;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-delay: 0s;
-  opacity: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    animation-name: dissapear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    opacity: 0;
 }
+
 .blinkblue {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  background-color: purple;
-  position: absolute;
-  top: 5%;
-  left: 80%;
-  animation-name: dissapear;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-delay: 1s;
-  opacity: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation-name: dissapear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    opacity: 0;
 }
+
 .blinkmaroon {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  background-color: purple;
-  position: absolute;
-  top: 5%;
-  left: 80%;
-  animation-name: dissapear;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-delay: 1s;
-  opacity: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: maroon;
+    animation-name: dissapear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    opacity: 0;
 }
+
 .blinkpink {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  background-color: purple;
-  position: absolute;
-  top: 5%;
-  left: 80%;
-  animation-name: dissapear;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-delay: 1s;
-  opacity: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    animation-name: dissapear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    opacity: 0;
 }
+
 .blinkpurple {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  background-color: purple;
-  position: absolute;
-  top: 5%;
-  left: 80%;
-  animation-name: dissapear;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-delay: 1s;
-  opacity: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 1000px;
+    background-color: purple;
+    animation-name: dissapear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    opacity: 0;
 }
+
 .blinkgrey {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  background-color: purple;
-  position: absolute;
-  top: 5%;
-  left: 80%;
-  animation-name: dissapear;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-delay: 1s;
-  opacity: 0;
-}
-.blinkbeige {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  background-color: purple;
-  position: absolute;
-  top: 5%;
-  left: 80%;
-  animation-name: dissapear;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-delay: 1s;
-  opacity: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    animation-name: dissapear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    opacity: 0;
 }
 
+.blinkviolet {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    animation-name: dissapear;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    opacity: 0;
+}
 
-
-@keyframes disappear {
-
-0%(opacity: 0;animation-timing-function: ease;)
-50%(opacity: 1;animation-timing-function: ease;)
-100%(opacity: 0;animation-timing-function: ease;)
-
+@keyframes dissapear {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in-out;
+    }
+    50% {
+        opacity: 1;
+        animation-timing-function: ease-in-out;
+    }
+    100% {
+        opacity: 0;
+        animation-timing-function: ease-in-out;
+    }
 }
